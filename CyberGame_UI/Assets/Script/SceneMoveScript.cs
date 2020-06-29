@@ -17,7 +17,11 @@ public class SceneMoveScript : MonoBehaviour
             MainCanvas = GameObject.Find("Shop_Canvas");
 
         }
+        if (this.gameObject.name.Equals("BackBtn"))
+        {
 
+            btn_name = "BackBtn";
+        }
         btn_name = this.gameObject.name;
 
     }
@@ -74,7 +78,12 @@ public class SceneMoveScript : MonoBehaviour
                 Debug.Log("Battle");
 
                 break;
+            case "BackBtn":
 
+                UnityEngine.SceneManagement.SceneManager.LoadScene("CyberGame_UI");
+                Debug.Log("Back");
+
+                break;
             default:
 
                 Debug.Log("Default");
