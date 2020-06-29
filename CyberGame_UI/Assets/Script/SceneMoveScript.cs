@@ -5,6 +5,7 @@ using UnityEngine;
 public class SceneMoveScript : MonoBehaviour
 {
     GameObject MainCanvas;
+    GameObject obj;
     //[SerializeField] GameObject Fade_start;
     [SerializeField] GameObject Fade_end;
     string btn_name;
@@ -42,15 +43,15 @@ public class SceneMoveScript : MonoBehaviour
     {
        
 
-        GameObject obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
-        obj.transform.parent = MainCanvas.transform;
-        yield return new WaitForSeconds(0.25f);
+       
 
         switch (btn_name)
         {
             case "EquipmentBtn":
 
-               
+                // obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
+                //obj.transform.parent = MainCanvas.transform;
+                //yield return new WaitForSeconds(0.25f);
                 //UnityEngine.SceneManagement.SceneManager.LoadScene();
                 Debug.Log("Equipment");
 
@@ -58,7 +59,9 @@ public class SceneMoveScript : MonoBehaviour
 
             case "UnitBtn":
 
-               
+                //obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
+                //obj.transform.parent = MainCanvas.transform;
+                //yield return new WaitForSeconds(0.25f);
                 //UnityEngine.SceneManagement.SceneManager.LoadScene();
 
                 Debug.Log("Unit");
@@ -66,19 +69,28 @@ public class SceneMoveScript : MonoBehaviour
                 break;
 
             case "ShopBtn":
-                
+                 obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
+                obj.transform.parent = MainCanvas.transform;
+                yield return new WaitForSeconds(0.25f);
+
                 UnityEngine.SceneManagement.SceneManager.LoadScene("CyberGame_Shop");
                 Debug.Log("Shop");
 
                 break;
 
             case "BattleBtn":
-                
+                // obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
+                //obj.transform.parent = MainCanvas.transform;
+                //yield return new WaitForSeconds(0.25f);
+
                 //UnityEngine.SceneManagement.SceneManager.LoadScene();
                 Debug.Log("Battle");
 
                 break;
             case "BackBtn":
+                 obj = Instantiate(Fade_end, this.transform.position, Quaternion.identity) as GameObject;
+                obj.transform.parent = MainCanvas.transform;
+                yield return new WaitForSeconds(0.25f);
 
                 UnityEngine.SceneManagement.SceneManager.LoadScene("CyberGame_UI");
                 Debug.Log("Back");
