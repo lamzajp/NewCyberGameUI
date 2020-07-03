@@ -32821,6 +32821,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022054461}
     m_Modifications:
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 479a66fa4b094512a62b0a8e553ad95a,
+        type: 2}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_overrideHtmlColors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_spriteAsset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967477535465756115, guid: 8d611fea613850344a1d097c362be292,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6967477535477471316, guid: 8d611fea613850344a1d097c362be292,
         type: 3}
       propertyPath: m_LocalPosition.x
