@@ -55,7 +55,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3d71677c3dab67848a6db9eddb30861b, type: 3}
-    totalSpriteSurfaceArea: 2680688
+    totalSpriteSurfaceArea: 2686464
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -98,6 +98,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7b268a754ebac68448d9eb961cdb0521, type: 3}
   - {fileID: 21300000, guid: 825fed85b0cbb894e8d233ecf76a32f9, type: 3}
   - {fileID: 21300000, guid: 052785952738862458f47f898cd8e96a, type: 3}
+  - {fileID: 21300000, guid: 40a06fb5b22c7da45bd3c4240c9e480f, type: 3}
   - {fileID: 21300000, guid: a05570c547ea6c04baf7a2193124e6d0, type: 3}
   - {fileID: 21300000, guid: 948a3ee57a205c64ab5f2c0ebf973ddd, type: 3}
   - {fileID: 21300000, guid: 8468b4f56c2d205448f0cc986c9920a5, type: 3}
@@ -114,6 +115,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: dc86df977b01910428a6e0012c041414, type: 3}
   - {fileID: 21300000, guid: a31b5aa7e07e13843b8ac089a9e329be, type: 3}
   - {fileID: 21300000, guid: c1d0aaa7644ad3e4183034006c60845a, type: 3}
+  - {fileID: 21300000, guid: 53419ba75a1bb5442a0339a39b021738, type: 3}
   - {fileID: 21300000, guid: d6baf5e74f848644dbac5aed2a657b0b, type: 3}
   - {fileID: 21300000, guid: 502c3218f7c75b14f807bdb3c795dac7, type: 3}
   - {fileID: 21300000, guid: e5eb8128ca82f4a4ebaa3b7f650ed80b, type: 3}
@@ -215,6 +217,7 @@ SpriteAtlas:
   - BattleBtn_Pressed
   - TopMenuPanel_Right
   - Txt_MoveImg
+  - Txt_AtkImg
   - Dummy_Character
   - ShopIcon
   - BuyBtn_Pressed
@@ -231,6 +234,7 @@ SpriteAtlas:
   - Txt_DefImg
   - ShopItem_Dummy_0000
   - Txt_BackImg
+  - Txt_DefImg
   - ShopHeaderShape
   - CharacterNamePanel_Right
   - WeaponIcon_01
