@@ -18037,7 +18037,7 @@ GameObject:
   - component: {fileID: 499544585}
   - component: {fileID: 499544584}
   m_Layer: 5
-  m_Name: BuyPressedBtn
+  m_Name: PressedBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20579,7 +20579,7 @@ GameObject:
   - component: {fileID: 633548114}
   - component: {fileID: 633548113}
   m_Layer: 5
-  m_Name: BuyOnOverBtn
+  m_Name: OnOverBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36226,7 +36226,7 @@ GameObject:
   - component: {fileID: 1652431516}
   - component: {fileID: 1652431515}
   m_Layer: 5
-  m_Name: BuyDefaultBtn
+  m_Name: DefaultBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

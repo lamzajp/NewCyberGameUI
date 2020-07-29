@@ -1648,7 +1648,7 @@ GameObject:
   - component: {fileID: 180347506}
   - component: {fileID: 180347505}
   m_Layer: 5
-  m_Name: BattleOnOverBtn
+  m_Name: OnOverBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11847,7 +11847,7 @@ GameObject:
   - component: {fileID: 842404863}
   - component: {fileID: 842404862}
   m_Layer: 5
-  m_Name: BattlePressedBtn
+  m_Name: PressedBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28087,7 +28087,7 @@ GameObject:
   - component: {fileID: 1844948893}
   - component: {fileID: 1844948892}
   m_Layer: 5
-  m_Name: BattleDefaultBtn
+  m_Name: DefaultBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
